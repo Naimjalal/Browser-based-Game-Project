@@ -4,8 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escape the Jungle</title>
+    <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+  <!-- <script defer src="test.js"></script> -->
 </head>
 <body>
-    <h1>Escape the Jungle</h1>
+  <!-- <img src="C:\Users\naimj\Desktop\Code\ga\labs\Browser-based-Game-Project\images\1st promt.jpg" alt="Jungle Escape"> -->
+  <h2>Escape the Jungle</h2>
+    <!-- Game Section -->
+    <div id="game">
+        <!-- Health display -->
+        <div id="healthContainer">
+          Health: <span id="healthDisplay">10</span> 
+        </div>
+         <!-- Image display -->
+      <div id="imageContainer">
+        <img id="storyImage" src="" alt="Story Image" />
+      </div>
+      <textarea id="promptBox" rows="3" ></textarea>
+    
+      <textarea id="outcomeBox" rows="4"></textarea>
+      
+      <div id="choicesContainer">
+        <button id = "choice1" class = "choice-btn"></button>
+        <button id = "choice2" class = "choice-btn"></button>
+        <button id = "choice3" class = "choice-btn"></button>
+      </div>
+      
+      <button id="restartBtn" class="hidden">Restart Game</button>
+
+    </div>
+ 
 </body>
 </html>
+
+
